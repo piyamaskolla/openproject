@@ -226,6 +226,7 @@ import {FullCalendarModule} from 'ng-fullcalendar';
 import {WorkPackagesCalendarController} from "core-components/wp-calendar/wp-calendar.component";
 import {WorkPackagesEmbeddedCalendarEntryComponent} from "core-components/wp-table/embedded/wp-embedded-calendar-entry.component";
 import {WorkPackageBreadcrumbParentComponent} from './components/work-packages/wp-breadcrumb/wp-breadcrumb-parent.component';
+import {WpTableConfigurationRelationSelectorComponent} from "core-components/wp-table/configuration-modal/wp-table-configuration-relation-selector";
 
 @NgModule({
   imports: [
@@ -465,6 +466,7 @@ import {WorkPackageBreadcrumbParentComponent} from './components/work-packages/w
 
     // Modals
     WpTableConfigurationModalComponent,
+    WpTableConfigurationRelationSelectorComponent,
     WpTableConfigurationColumnsTab,
     WpTableConfigurationDisplaySettingsTab,
     WpTableConfigurationFiltersTab,
